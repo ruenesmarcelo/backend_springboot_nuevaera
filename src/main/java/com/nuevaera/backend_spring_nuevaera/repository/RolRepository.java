@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RolRepository extends JpaRepository<Rol, Integer> {
     // Con JpaRepository ya tienes métodos como:
-    // findAll(), findById(id), save(entity), deleteById(id), etc.
+    // findAll(), findById(id), save(entity), deleteById(id), etc..
 }
