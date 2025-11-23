@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.*;
 
 //@CrossOrigin(origins = "https://nuevaera-v9ts.vercel.app/")
 @CrossOrigin(origins = {
-        "https://nuevaera-six.vercel.app/",
+        "https://quimicosnuevaera.com",
+        "quimicosnuevaera.com",
         "http://localhost:4200"
 })
 @RestController
