@@ -13,9 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-//@CrossOrigin(origins = "https://nuevaera-v9ts.vercel.app/")
+//@CrossOrigin(origins = "https://nuevaera-v9ts.vercel.app/").
 @CrossOrigin(origins = {
-        "https://quimicosnuevaera.com",
+        "https://www.quimicosnuevaera.com",
         "quimicosnuevaera.com",
         "http://localhost:4200"
 })
